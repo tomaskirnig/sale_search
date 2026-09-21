@@ -2,6 +2,7 @@ import { useState, useEffect } from 'preact/hooks';
 import type { ShoppingListItem, StoreId } from '../types/sales';
 import { STORES } from '../data/mockSales';
 import { formatCzk } from '../utils/czechNormalize';
+import { hapticFeedback } from '../utils/haptics';
 import {
   X,
   Trash2,
@@ -10,6 +11,7 @@ import {
   Copy,
   Check,
   ShoppingBag,
+  Share2,
 } from 'lucide-preact';
 
 interface ShoppingListDrawerProps {
@@ -22,6 +24,7 @@ interface ShoppingListDrawerProps {
   onUpdateQuantity: (itemId: string, delta: number) => void;
   onRemoveItem: (itemId: string) => void;
   onClearList: () => void;
+  onToggleCheck: (itemId: string) => void;
 }
 
 export function ShoppingListDrawer({
@@ -34,8 +37,10 @@ export function ShoppingListDrawer({
   onUpdateQuantity,
   onRemoveItem,
   onClearList,
+  onToggleCheck,
 }: ShoppingListDrawerProps) {
   const [copied, setCopied] = useState(false);
+  const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
   // Close on Escape key
   useEffect(() => {
@@ -51,19 +56,45 @@ export function ShoppingListDrawer({
     ([, items]) => items.length > 0
   ) as [StoreId, ShoppingListItem[]][];
 
-  // Copy shopping list formatted as text
-  const handleCopy = () => {
+  const buildShoppingListText = () => {
     let text = `🛒 MŮJ NÁKUPNÍ SEZNAM (Celkem: ${formatCzk(totalPrice)})\n\n`;
 
     storesWithItems.forEach(([storeId, list]) => {
       const store = STORES[storeId];
       text += `📍 ${store?.name || storeId.toUpperCase()}:\n`;
-      list.forEach(({ item, quantity }) => {
-        text += `  • ${quantity}x ${item.title} – ${formatCzk(item.salePrice * quantity)}\n`;
+      list.forEach(({ item, quantity, checked }) => {
+        const mark = checked ? '✓ ' : '• ';
+        text += `  ${mark}${quantity}x ${item.title} – ${formatCzk(item.salePrice * quantity)}\n`;
       });
       text += '\n';
     });
+    return text;
+  };
 
+  // Share via Web Share API or copy fallback
+  const handleShare = async () => {
+    hapticFeedback('medium');
+    const text = buildShoppingListText();
+
+    if (canShare) {
+      try {
+        await navigator.share({
+          title: 'Můj nákupní lístek – AkcePotraviny',
+          text,
+        });
+        return;
+      } catch (err: any) {
+        if (err.name === 'AbortError') return; // User closed sheet
+      }
+    }
+
+    handleCopy();
+  };
+
+  // Copy shopping list formatted as text
+  const handleCopy = () => {
+    hapticFeedback('light');
+    const text = buildShoppingListText();
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -157,13 +188,45 @@ export function ShoppingListDrawer({
 
                     {/* Store items list */}
                     <div class="space-y-2.5">
-                      {list.map(({ item, quantity }) => (
+                      {list.map(({ item, quantity, checked }) => (
                         <div
                           key={item.id}
-                          class="flex items-center justify-between gap-2 bg-white p-2.5 rounded-lg border border-slate-200/80 shadow-2xs"
+                          class={`flex items-center justify-between gap-2.5 p-2.5 rounded-lg border transition-all ${
+                            checked
+                              ? 'bg-slate-50/70 border-slate-200 opacity-60'
+                              : 'bg-white border-slate-200/80 shadow-2xs'
+                          }`}
                         >
-                          <div class="flex-1 min-w-0 pr-1">
-                            <h4 class="text-xs font-bold text-slate-900 truncate">
+                          {/* Checkbox for checking off in shop */}
+                          <button
+                            type="button"
+                            onClick={() => {
+                              hapticFeedback('light');
+                              onToggleCheck(item.id);
+                            }}
+                            class={`w-5 h-5 rounded-md border flex items-center justify-center shrink-0 transition-colors cursor-pointer ${
+                              checked
+                                ? 'bg-emerald-600 border-emerald-600 text-white'
+                                : 'border-slate-300 hover:border-slate-400 bg-white'
+                            }`}
+                            title={checked ? 'Označit jako nekoupené' : 'Označit jako koupené'}
+                          >
+                            {checked && <Check class="w-3.5 h-3.5 stroke-[3]" />}
+                          </button>
+
+                          {/* Item info */}
+                          <div
+                            class="flex-1 min-w-0 cursor-pointer"
+                            onClick={() => {
+                              hapticFeedback('light');
+                              onToggleCheck(item.id);
+                            }}
+                          >
+                            <h4
+                              class={`text-xs font-bold truncate transition-colors ${
+                                checked ? 'text-slate-400 line-through' : 'text-slate-900'
+                              }`}
+                            >
                               {item.title}
                             </h4>
                             <div class="flex items-center gap-2 mt-0.5">
@@ -179,11 +242,14 @@ export function ShoppingListDrawer({
                           </div>
 
                           {/* Quantity control */}
-                          <div class="flex items-center gap-1.5 shrink-0">
+                          <div class="flex items-center gap-1 shrink-0">
                             <button
                               type="button"
-                              onClick={() => onUpdateQuantity(item.id, -1)}
-                              class="w-6 h-6 rounded-md bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-700 cursor-pointer transition-colors"
+                              onClick={() => {
+                                hapticFeedback('light');
+                                onUpdateQuantity(item.id, -1);
+                              }}
+                              class="w-6 h-6 rounded-md bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-700 cursor-pointer transition-colors active:scale-95"
                               title="Snížit počet"
                             >
                               <Minus class="w-3 h-3" />
@@ -193,16 +259,22 @@ export function ShoppingListDrawer({
                             </span>
                             <button
                               type="button"
-                              onClick={() => onUpdateQuantity(item.id, 1)}
-                              class="w-6 h-6 rounded-md bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-700 cursor-pointer transition-colors"
+                              onClick={() => {
+                                hapticFeedback('light');
+                                onUpdateQuantity(item.id, 1);
+                              }}
+                              class="w-6 h-6 rounded-md bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-700 cursor-pointer transition-colors active:scale-95"
                               title="Zvýšit počet"
                             >
                               <Plus class="w-3 h-3" />
                             </button>
                             <button
                               type="button"
-                              onClick={() => onRemoveItem(item.id)}
-                              class="w-6 h-6 rounded-md text-red-500 hover:bg-red-50 flex items-center justify-center cursor-pointer transition-colors ml-1"
+                              onClick={() => {
+                                hapticFeedback('medium');
+                                onRemoveItem(item.id);
+                              }}
+                              class="w-6 h-6 rounded-md text-red-500 hover:bg-red-50 flex items-center justify-center cursor-pointer transition-colors ml-0.5 active:scale-95"
                               title="Odebrat z lístku"
                             >
                               <Trash2 class="w-3 h-3" />
@@ -235,23 +307,46 @@ export function ShoppingListDrawer({
 
               {/* Actions */}
               <div class="flex gap-2">
-                <button
-                  type="button"
-                  onClick={handleCopy}
-                  class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-colors cursor-pointer active:scale-95 shadow-xs"
-                >
-                  {copied ? (
-                    <>
-                      <Check class="w-4 h-4 text-emerald-400" />
-                      <span>Zkopírováno!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy class="w-4 h-4 text-slate-300" />
-                      <span>Zkopírovat seznam</span>
-                    </>
-                  )}
-                </button>
+                {canShare ? (
+                  <button
+                    type="button"
+                    onClick={handleShare}
+                    class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-colors cursor-pointer active:scale-95 shadow-xs"
+                  >
+                    <Share2 class="w-4 h-4 text-amber-400" />
+                    <span>Sdílet lístek</span>
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleCopy}
+                    class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-colors cursor-pointer active:scale-95 shadow-xs"
+                  >
+                    {copied ? (
+                      <>
+                        <Check class="w-4 h-4 text-emerald-400" />
+                        <span>Zkopírováno!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy class="w-4 h-4 text-slate-300" />
+                        <span>Zkopírovat seznam</span>
+                      </>
+                    )}
+                  </button>
+                )}
+
+                {canShare && (
+                  <button
+                    type="button"
+                    onClick={handleCopy}
+                    class="py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-colors cursor-pointer active:scale-95 shadow-2xs"
+                    title="Kopírovat do schránky"
+                  >
+                    {copied ? <Check class="w-4 h-4 text-emerald-600" /> : <Copy class="w-4 h-4 text-slate-500" />}
+                  </button>
+                )}
+
                 <button
                   type="button"
                   onClick={onClearList}

@@ -1,5 +1,6 @@
 import type { GroceryCategory } from '../types/sales';
 import { CATEGORIES } from '../data/mockSales';
+import { hapticFeedback } from '../utils/haptics';
 
 interface CategoryFilterProps {
   selectedCategory: GroceryCategory | 'all';
@@ -14,8 +15,11 @@ export function CategoryFilter({
     <div class="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
       <button
         type="button"
-        onClick={() => onSelectCategory('all')}
-        class={`px-3 py-1.5 rounded-xl text-xs font-medium shrink-0 transition-all flex items-center gap-1.5 cursor-pointer ${
+        onClick={() => {
+          hapticFeedback('light');
+          onSelectCategory('all');
+        }}
+        class={`px-3 py-1.5 rounded-xl text-xs font-medium shrink-0 transition-all flex items-center gap-1.5 cursor-pointer active:scale-95 ${
           selectedCategory === 'all'
             ? 'bg-amber-500 text-slate-950 font-bold shadow-xs'
             : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50'
@@ -31,11 +35,14 @@ export function CategoryFilter({
           <button
             key={cat.id}
             type="button"
-            onClick={() => onSelectCategory(cat.id)}
-            class={`px-3 py-1.5 rounded-xl text-xs font-medium shrink-0 transition-all flex items-center gap-1.5 cursor-pointer ${
+            onClick={() => {
+              hapticFeedback('light');
+              onSelectCategory(cat.id);
+            }}
+            class={`px-3 py-1.5 rounded-xl text-xs font-medium shrink-0 transition-all flex items-center gap-1.5 cursor-pointer border active:scale-95 ${
               isSelected
-                ? 'bg-amber-500 text-slate-950 font-bold shadow-xs'
-                : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                ? 'bg-amber-500 text-slate-950 font-bold border-amber-500 shadow-xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
             }`}
           >
             <span>{cat.icon}</span>

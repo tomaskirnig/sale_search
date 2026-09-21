@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { useSalesData } from './hooks/useSalesData';
 import { useSalesSearch } from './hooks/useSalesSearch';
 import { useShoppingList } from './hooks/useShoppingList';
@@ -8,10 +8,15 @@ import { CategoryFilter } from './components/CategoryFilter';
 import { SortBar } from './components/SortBar';
 import { ProductCard } from './components/ProductCard';
 import { ShoppingListDrawer } from './components/ShoppingListDrawer';
-import { SearchX, Zap } from 'lucide-preact';
+import { SearchX, Zap, ChevronDown } from 'lucide-preact';
+
+const PAGE_SIZE = 36;
 
 export function App() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
   const { items: salesItems, lastUpdated, isLoading } = useSalesData();
 
   const {
@@ -42,8 +47,32 @@ export function App() {
     removeItem,
     updateQuantity,
     clearList,
+    toggleCheck,
     getItemQuantity,
   } = useShoppingList();
+
+  // Reset pagination when filters or search change
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [searchQuery, selectedStores, selectedCategory, sortBy, hideExpired, onlyClubCard]);
+
+  // Infinite scroll observer for silky-smooth DOM performance
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, filteredItems.length));
+        }
+      },
+      { rootMargin: '400px' }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [filteredItems.length]);
 
   const handleResetFilters = () => {
     setSearchQuery('');
@@ -51,6 +80,9 @@ export function App() {
     setSelectedCategory('all');
     setOnlyClubCard(null);
   };
+
+  const visibleItems = filteredItems.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredItems.length;
 
   return (
     <div class="min-h-screen flex flex-col bg-slate-50 text-slate-900">
@@ -150,22 +182,38 @@ export function App() {
             <button
               type="button"
               onClick={handleResetFilters}
-              class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-bold cursor-pointer transition-colors shadow-xs"
+              class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-bold cursor-pointer transition-colors shadow-xs active:scale-95"
             >
               Resetovat všechny filtry
             </button>
           </div>
         ) : (
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
-            {filteredItems.map((item) => (
-              <ProductCard
-                key={item.id}
-                item={item}
-                quantityInList={getItemQuantity(item.id)}
-                onAddToList={addItem}
-              />
-            ))}
-          </div>
+          <>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
+              {visibleItems.map((item) => (
+                <ProductCard
+                  key={item.id}
+                  item={item}
+                  quantityInList={getItemQuantity(item.id)}
+                  onAddToList={addItem}
+                />
+              ))}
+            </div>
+
+            {/* Infinite scroll sentinel & manual trigger */}
+            <div ref={sentinelRef} class="py-4 text-center">
+              {hasMore && (
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((prev) => prev + PAGE_SIZE)}
+                  class="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50 shadow-2xs cursor-pointer active:scale-95 transition-all"
+                >
+                  <ChevronDown class="w-4 h-4 text-slate-400" />
+                  <span>Zobrazit dalších {Math.min(PAGE_SIZE, filteredItems.length - visibleCount)} slev (zbývá {filteredItems.length - visibleCount})</span>
+                </button>
+              )}
+            </div>
+          </>
         )}
       </main>
 
@@ -180,6 +228,7 @@ export function App() {
         onUpdateQuantity={updateQuantity}
         onRemoveItem={removeItem}
         onClearList={clearList}
+        onToggleCheck={toggleCheck}
       />
 
       {/* Footer */}

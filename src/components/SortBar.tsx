@@ -89,6 +89,7 @@ export function SortBar({
             onChange={(e) => onSortChange((e.target as HTMLSelectElement).value as SortOption)}
             class="bg-transparent text-slate-800 text-xs font-semibold focus:outline-hidden cursor-pointer"
           >
+            <option value="relevance">Nejlepší shoda</option>
             <option value="discount_desc">Nejvyšší sleva (%)</option>
             <option value="price_asc">Nejnižší cena (Kč)</option>
             <option value="price_desc">Nejvyšší cena (Kč)</option>

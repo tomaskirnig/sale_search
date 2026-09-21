@@ -53,6 +53,16 @@ export function useShoppingList() {
 
   const clearList = () => setItems([]);
 
+  const toggleCheck = (itemId: string) => {
+    setItems((prev) =>
+      prev.map((i) => (i.item.id === itemId ? { ...i, checked: !i.checked } : i))
+    );
+  };
+
+  const setShoppingList = (newItems: ShoppingListItem[]) => {
+    setItems(newItems);
+  };
+
   const isInList = (itemId: string) => items.some((i) => i.item.id === itemId);
 
   const getItemQuantity = (itemId: string) =>
@@ -91,6 +101,8 @@ export function useShoppingList() {
     removeItem,
     updateQuantity,
     clearList,
+    toggleCheck,
+    setShoppingList,
     isInList,
     getItemQuantity,
   };

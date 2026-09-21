@@ -1,5 +1,6 @@
 import type { StoreId } from '../types/sales';
 import { STORES } from '../data/mockSales';
+import { hapticFeedback } from '../utils/haptics';
 
 interface StoreFilterProps {
   selectedStores: StoreId[];
@@ -18,8 +19,11 @@ export function StoreFilter({
     <div class="flex items-center gap-1.5 overflow-x-auto pb-1.5 scrollbar-thin">
       <button
         type="button"
-        onClick={onClearStores}
-        class={`px-3 py-1.5 rounded-full text-xs font-semibold shrink-0 transition-all cursor-pointer ${
+        onClick={() => {
+          hapticFeedback('light');
+          onClearStores();
+        }}
+        class={`px-3 py-1.5 rounded-full text-xs font-semibold shrink-0 transition-all cursor-pointer active:scale-95 ${
           selectedStores.length === 0
             ? 'bg-slate-900 text-white shadow-xs'
             : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-100'
@@ -34,8 +38,11 @@ export function StoreFilter({
           <button
             key={store.id}
             type="button"
-            onClick={() => onToggleStore(store.id)}
-            class={`px-3 py-1.5 rounded-full text-xs font-semibold shrink-0 transition-all flex items-center gap-1.5 cursor-pointer border ${
+            onClick={() => {
+              hapticFeedback('light');
+              onToggleStore(store.id);
+            }}
+            class={`px-3 py-1.5 rounded-full text-xs font-semibold shrink-0 transition-all flex items-center gap-1.5 cursor-pointer border active:scale-95 ${
               isSelected
                 ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-50'

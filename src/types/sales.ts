@@ -59,6 +59,7 @@ export interface CategoryInfo {
 }
 
 export type SortOption =
+  | 'relevance'     // Nejlepší shoda (při vyhledávání)
   | 'discount_desc' // Nejvyšší sleva
   | 'price_asc'     // Nejnižší cena
   | 'price_desc'    // Nejvyšší cena
@@ -68,4 +69,5 @@ export type SortOption =
 export interface ShoppingListItem {
   item: SaleItem;
   quantity: number;
+  checked?: boolean;
 }

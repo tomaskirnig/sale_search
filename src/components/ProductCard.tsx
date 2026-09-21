@@ -2,6 +2,7 @@ import { useState } from 'preact/hooks';
 import type { SaleItem } from '../types/sales';
 import { STORES } from '../data/mockSales';
 import { formatCzechDate, formatCzk } from '../utils/czechNormalize';
+import { hapticFeedback } from '../utils/haptics';
 import { Plus, Check, ShoppingBag, CreditCard, Clock } from 'lucide-preact';
 
 interface ProductCardProps {
@@ -16,7 +17,15 @@ export function ProductCard({
   onAddToList,
 }: ProductCardProps) {
   const [imageError, setImageError] = useState(false);
+  const [justAdded, setJustAdded] = useState(false);
   const storeInfo = STORES[item.store];
+
+  const handleAdd = () => {
+    hapticFeedback('light');
+    setJustAdded(true);
+    setTimeout(() => setJustAdded(false), 350);
+    onAddToList(item);
+  };
 
   return (
     <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col group relative">
@@ -29,6 +38,7 @@ export function ProductCard({
             referrerPolicy="no-referrer"
             onError={() => setImageError(true)}
             loading="lazy"
+            decoding="async"
             class="absolute inset-0 w-full h-full object-contain p-2.5 group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
@@ -112,8 +122,10 @@ export function ProductCard({
             {/* Add to shopping list button */}
             <button
               type="button"
-              onClick={() => onAddToList(item)}
-              class={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer active:scale-95 ${
+              onClick={handleAdd}
+              class={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-150 cursor-pointer ${
+                justAdded ? 'scale-110 ring-2 ring-amber-400 ring-offset-1' : 'active:scale-95'
+              } ${
                 quantityInList > 0
                   ? 'bg-amber-100 text-amber-900 border border-amber-300 hover:bg-amber-200'
                   : 'bg-slate-100 text-slate-800 hover:bg-slate-200 border border-slate-200'
