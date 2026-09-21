@@ -1,0 +1,42 @@
+name: Daily Sales Sync
+
+on:
+  schedule:
+    # Every day at 04:00 UTC (before grocery stores open)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Execute sales sync pipeline
+        run: npm run sync
+
+      - name: Commit & Push updated sales data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/sales.latest.json
+          if git diff --staged --quiet; then
+            console.log "No changes in sales data detected today."
+          else
+            git commit -m "chore(data): auto-update daily sales data [skip ci]"
+            git push
+          fi
