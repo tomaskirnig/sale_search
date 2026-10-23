@@ -1,107 +1,7 @@
 {
-  "updatedAt": "2026-10-22T08:59:14.797Z",
-  "count": 309,
+  "updatedAt": "2026-10-23T08:54:17.065Z",
+  "count": 307,
   "items": [
-    {
-      "id": "billa-11271192",
-      "store": "billa",
-      "title": "Jogurt Pierot Olma",
-      "category": "dairy_eggs",
-      "originalPrice": 41.8,
-      "salePrice": 20.9,
-      "discountPercentage": 50,
-      "unitPrice": {
-        "price": 6.971,
-        "unit": "100g",
-        "formatted": "6,97 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/jogurt-pierot-olma_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11265915",
-      "store": "kaufland",
-      "title": "Tvaroh Malko",
-      "category": "dairy_eggs",
-      "salePrice": 14.9,
-      "unitPrice": {
-        "price": 5.961,
-        "unit": "100g",
-        "formatted": "5,96 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/tvaroh-malko_170_340.jpg"
-    },
-    {
-      "id": "tesco-11231007",
-      "store": "tesco",
-      "title": "Jogurt Jogobella Zott",
-      "category": "dairy_eggs",
-      "originalPrice": 14.8,
-      "salePrice": 9.9,
-      "discountPercentage": 33,
-      "unitPrice": {
-        "price": 6.601,
-        "unit": "100g",
-        "formatted": "6,60 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/jogurt-jogobella-zott_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11265897",
-      "store": "kaufland",
-      "title": "Vejce Z Podestylky M K Classic",
-      "category": "dairy_eggs",
-      "salePrice": 99.9,
-      "unitPrice": {
-        "price": 3.331,
-        "unit": "100g",
-        "formatted": "3,33 Kč / 1 ks"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/vejce-z-podestylky-m-k-classic_170_340.jpg"
-    },
-    {
-      "id": "tesco-11231013",
-      "store": "tesco",
-      "title": "Mleko Trvanlive Jihoceske Madeta 15 Polotucne",
-      "category": "dairy_eggs",
-      "salePrice": 10.9,
-      "unitPrice": {
-        "price": 10.901,
-        "unit": "l",
-        "formatted": "10,90 Kč / 1 l"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-jihoceske-madeta-15-polotucne_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11266059",
-      "store": "kaufland",
-      "title": "Mleko Trvanlive Jihoceske Madeta 35 Plnotucne",
-      "category": "dairy_eggs",
-      "salePrice": 11.9,
-      "unitPrice": {
-        "price": 11.901,
-        "unit": "l",
-        "formatted": "11,90 Kč / 1 l"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-jihoceske-madeta-35-plnotucne_170_340.jpg"
-    },
     {
       "id": "billa-11271228",
       "store": "billa",
@@ -115,11 +15,27 @@
         "unit": "100g",
         "formatted": "3,00 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/vejce-z-podestylky-m_170_340.jpg"
+    },
+    {
+      "id": "kaufland-11265897",
+      "store": "kaufland",
+      "title": "Vejce Z Podestylky M K Classic",
+      "category": "dairy_eggs",
+      "salePrice": 99.9,
+      "unitPrice": {
+        "price": 3.331,
+        "unit": "100g",
+        "formatted": "3,33 Kč / 1 ks"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/vejce-z-podestylky-m-k-classic_170_340.jpg"
     },
     {
       "id": "billa-11271204",
@@ -134,44 +50,95 @@
         "unit": "l",
         "formatted": "8,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-mlekarna-kunin-15-polotucne_170_340.jpg"
     },
     {
-      "id": "kaufland-11265675",
+      "id": "kaufland-11266059",
       "store": "kaufland",
-      "title": "Maslo Jihoceske Madeta",
+      "title": "Mleko Trvanlive Jihoceske Madeta 35 Plnotucne",
       "category": "dairy_eggs",
-      "salePrice": 32.9,
+      "salePrice": 11.9,
       "unitPrice": {
-        "price": 13.161,
-        "unit": "100g",
-        "formatted": "13,16 Kč / 100 g"
+        "price": 11.901,
+        "unit": "l",
+        "formatted": "11,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": true,
-      "clubCardName": "Kaufland Card",
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/maslo-jihoceske-madeta_170_340.jpg"
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-jihoceske-madeta-35-plnotucne_170_340.jpg"
     },
     {
-      "id": "kaufland-11265669",
-      "store": "kaufland",
-      "title": "Maslo Jihoceske Madeta",
+      "id": "tesco-11231007",
+      "store": "tesco",
+      "title": "Jogurt Jogobella Zott",
       "category": "dairy_eggs",
-      "salePrice": 37.9,
+      "originalPrice": 14.8,
+      "salePrice": 9.9,
+      "discountPercentage": 33,
       "unitPrice": {
-        "price": 15.161,
+        "price": 6.601,
         "unit": "100g",
-        "formatted": "15,16 Kč / 100 g"
+        "formatted": "6,60 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/maslo-jihoceske-madeta_170_340.jpg"
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/jogurt-jogobella-zott_170_340.jpg"
+    },
+    {
+      "id": "tesco-11231013",
+      "store": "tesco",
+      "title": "Mleko Trvanlive Jihoceske Madeta 15 Polotucne",
+      "category": "dairy_eggs",
+      "salePrice": 10.9,
+      "unitPrice": {
+        "price": 10.901,
+        "unit": "l",
+        "formatted": "10,90 Kč / 1 l"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-jihoceske-madeta-15-polotucne_170_340.jpg"
+    },
+    {
+      "id": "billa-11271192",
+      "store": "billa",
+      "title": "Jogurt Pierot Olma",
+      "category": "dairy_eggs",
+      "originalPrice": 41.8,
+      "salePrice": 20.9,
+      "discountPercentage": 50,
+      "unitPrice": {
+        "price": 6.971,
+        "unit": "100g",
+        "formatted": "6,97 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/jogurt-pierot-olma_170_340.jpg"
+    },
+    {
+      "id": "kaufland-11265915",
+      "store": "kaufland",
+      "title": "Tvaroh Malko",
+      "category": "dairy_eggs",
+      "salePrice": 14.9,
+      "unitPrice": {
+        "price": 5.961,
+        "unit": "100g",
+        "formatted": "5,96 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/tvaroh-malko_170_340.jpg"
     },
     {
       "id": "albert-11253249",
@@ -186,8 +153,8 @@
         "unit": "100g",
         "formatted": "24,92 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-kral-syru_170_340.jpg"
     },
@@ -204,8 +171,8 @@
         "unit": "100g",
         "formatted": "24,92 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-kral-syru_170_340.jpg"
     },
@@ -222,8 +189,8 @@
         "unit": "100g",
         "formatted": "24,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-kral-syru_170_340.jpg"
     },
@@ -240,8 +207,8 @@
         "unit": "100g",
         "formatted": "11,22 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/margarin-flora_170_340.jpg"
@@ -259,8 +226,8 @@
         "unit": "100g",
         "formatted": "13,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/margarin-flora_170_340.jpg"
@@ -278,8 +245,8 @@
         "unit": "l",
         "formatted": "11,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-trvanlive-albert-15-polotucne_170_340.jpg"
     },
@@ -296,8 +263,8 @@
         "unit": "100g",
         "formatted": "9,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/smetana-ke-slehani-mlekarna-kunin-31_170_340.jpg"
@@ -313,8 +280,8 @@
         "unit": "100g",
         "formatted": "9,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/smetana-ke-slehani-mlekarna-kunin-31_170_340.jpg"
     },
@@ -331,8 +298,8 @@
         "unit": "100g",
         "formatted": "8,99 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bily-jogurt-recky-0-milko_170_340.jpg"
@@ -350,8 +317,8 @@
         "unit": "100g",
         "formatted": "7,99 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bily-jogurt-recky-0-milko_170_340.jpg"
     },
@@ -368,8 +335,8 @@
         "unit": "100g",
         "formatted": "10,64 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bily-jogurt-recky-0-milko_170_340.jpg"
@@ -387,8 +354,8 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-sedlcansky_170_340.jpg"
     },
@@ -405,8 +372,8 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-sedlcansky_170_340.jpg"
@@ -422,8 +389,8 @@
         "unit": "100g",
         "formatted": "27,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-sedlcansky_170_340.jpg"
     },
@@ -440,8 +407,8 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-hermelin-sedlcansky_170_340.jpg"
     },
@@ -458,8 +425,8 @@
         "unit": "100g",
         "formatted": "10,05 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleko-kondenzovane-salko-tatra_170_340.jpg"
     },
@@ -476,8 +443,8 @@
         "unit": "100g",
         "formatted": "20,72 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-mozzarella-galbani_170_340.jpg"
@@ -493,8 +460,8 @@
         "unit": "100g",
         "formatted": "17,52 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-mozzarella-galbani_170_340.jpg"
     },
@@ -509,134 +476,10 @@
         "unit": "100g",
         "formatted": "19,12 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-mozzarella-galbani_170_340.jpg"
-    },
-    {
-      "id": "lidl-11251548",
-      "store": "lidl",
-      "title": "Sunka Varena Pikok",
-      "category": "meat_fish",
-      "originalPrice": 32.6,
-      "salePrice": 18.9,
-      "discountPercentage": 42,
-      "unitPrice": {
-        "price": 18.901,
-        "unit": "100g",
-        "formatted": "18,90 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/sunka-varena-pikok_170_340.jpg"
-    },
-    {
-      "id": "tesco-11231034",
-      "store": "tesco",
-      "title": "Kure Tesco",
-      "category": "meat_fish",
-      "originalPrice": 89.1,
-      "salePrice": 49.9,
-      "discountPercentage": 44,
-      "unitPrice": {
-        "price": 49.901,
-        "unit": "kg",
-        "formatted": "49,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kure-tesco_170_340.jpg"
-    },
-    {
-      "id": "billa-11271201",
-      "store": "billa",
-      "title": "Kachna Krakauerland",
-      "category": "meat_fish",
-      "originalPrice": 166.5,
-      "salePrice": 79.9,
-      "discountPercentage": 52,
-      "unitPrice": {
-        "price": 79.901,
-        "unit": "kg",
-        "formatted": "79,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kachna-krakauerland_170_340.jpg"
-    },
-    {
-      "id": "billa-11271195",
-      "store": "billa",
-      "title": "Losos Filety",
-      "category": "meat_fish",
-      "originalPrice": 49.8,
-      "salePrice": 29.9,
-      "discountPercentage": 40,
-      "unitPrice": {
-        "price": 29.901,
-        "unit": "100g",
-        "formatted": "29,90 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/losos-filety_170_340.jpg"
-    },
-    {
-      "id": "billa-11271492",
-      "store": "billa",
-      "title": "Panenka Veprova",
-      "category": "meat_fish",
-      "originalPrice": 259.8,
-      "salePrice": 129.9,
-      "discountPercentage": 50,
-      "unitPrice": {
-        "price": 129.901,
-        "unit": "kg",
-        "formatted": "129,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/panenka-veprova_170_340.jpg"
-    },
-    {
-      "id": "lidl-11251551",
-      "store": "lidl",
-      "title": "Kureci Rizky Mix",
-      "category": "meat_fish",
-      "salePrice": 99.9,
-      "unitPrice": {
-        "price": 99.901,
-        "unit": "kg",
-        "formatted": "99,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-rizky-mix_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11269767",
-      "store": "kaufland",
-      "title": "Sunka Od Kosti Vyberova Prantl",
-      "category": "meat_fish",
-      "originalPrice": 31.6,
-      "salePrice": 19.9,
-      "discountPercentage": 37,
-      "unitPrice": {
-        "price": 19.901,
-        "unit": "100g",
-        "formatted": "19,90 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/sunka-od-kosti-vyberova-prantl_170_340.jpg"
     },
     {
       "id": "tesco-11230989",
@@ -651,8 +494,8 @@
         "unit": "kg",
         "formatted": "74,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-krkovice-bez-kosti_170_340.jpg"
     },
@@ -669,10 +512,134 @@
         "unit": "100g",
         "formatted": "19,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/anglicka-slanina-special-le-co_170_340.jpg"
+    },
+    {
+      "id": "billa-11271492",
+      "store": "billa",
+      "title": "Panenka Veprova",
+      "category": "meat_fish",
+      "originalPrice": 259.8,
+      "salePrice": 129.9,
+      "discountPercentage": 50,
+      "unitPrice": {
+        "price": 129.901,
+        "unit": "kg",
+        "formatted": "129,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/panenka-veprova_170_340.jpg"
+    },
+    {
+      "id": "tesco-11231034",
+      "store": "tesco",
+      "title": "Kure Tesco",
+      "category": "meat_fish",
+      "originalPrice": 89.1,
+      "salePrice": 49.9,
+      "discountPercentage": 44,
+      "unitPrice": {
+        "price": 49.901,
+        "unit": "kg",
+        "formatted": "49,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kure-tesco_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251551",
+      "store": "lidl",
+      "title": "Kureci Rizky Mix",
+      "category": "meat_fish",
+      "salePrice": 99.9,
+      "unitPrice": {
+        "price": 99.901,
+        "unit": "kg",
+        "formatted": "99,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-rizky-mix_170_340.jpg"
+    },
+    {
+      "id": "billa-11271195",
+      "store": "billa",
+      "title": "Losos Filety",
+      "category": "meat_fish",
+      "originalPrice": 49.8,
+      "salePrice": 29.9,
+      "discountPercentage": 40,
+      "unitPrice": {
+        "price": 29.901,
+        "unit": "100g",
+        "formatted": "29,90 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/losos-filety_170_340.jpg"
+    },
+    {
+      "id": "kaufland-11269767",
+      "store": "kaufland",
+      "title": "Sunka Od Kosti Vyberova Prantl",
+      "category": "meat_fish",
+      "originalPrice": 31.6,
+      "salePrice": 19.9,
+      "discountPercentage": 37,
+      "unitPrice": {
+        "price": 19.901,
+        "unit": "100g",
+        "formatted": "19,90 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/sunka-od-kosti-vyberova-prantl_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251548",
+      "store": "lidl",
+      "title": "Sunka Varena Pikok",
+      "category": "meat_fish",
+      "originalPrice": 32.6,
+      "salePrice": 18.9,
+      "discountPercentage": 42,
+      "unitPrice": {
+        "price": 18.901,
+        "unit": "100g",
+        "formatted": "18,90 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/sunka-varena-pikok_170_340.jpg"
+    },
+    {
+      "id": "billa-11271201",
+      "store": "billa",
+      "title": "Kachna Krakauerland",
+      "category": "meat_fish",
+      "originalPrice": 166.5,
+      "salePrice": 79.9,
+      "discountPercentage": 52,
+      "unitPrice": {
+        "price": 79.901,
+        "unit": "kg",
+        "formatted": "79,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kachna-krakauerland_170_340.jpg"
     },
     {
       "id": "penny-11253147",
@@ -687,8 +654,8 @@
         "unit": "kg",
         "formatted": "64,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kure_170_340.jpg"
     },
@@ -705,26 +672,10 @@
         "unit": "kg",
         "formatted": "69,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-plec-bez-kosti_170_340.jpg"
-    },
-    {
-      "id": "lidl-11252550",
-      "store": "lidl",
-      "title": "Veprova Pecene Bez Kosti",
-      "category": "meat_fish",
-      "salePrice": 79.9,
-      "unitPrice": {
-        "price": 79.901,
-        "unit": "kg",
-        "formatted": "79,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-pecene-bez-kosti_170_340.jpg"
     },
     {
       "id": "penny-11257704",
@@ -737,8 +688,24 @@
         "unit": "kg",
         "formatted": "79,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-pecene-bez-kosti_170_340.jpg"
+    },
+    {
+      "id": "lidl-11252550",
+      "store": "lidl",
+      "title": "Veprova Pecene Bez Kosti",
+      "category": "meat_fish",
+      "salePrice": 79.9,
+      "unitPrice": {
+        "price": 79.901,
+        "unit": "kg",
+        "formatted": "79,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-pecene-bez-kosti_170_340.jpg"
     },
@@ -755,8 +722,8 @@
         "unit": "kg",
         "formatted": "59,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-kyta-bez-kosti_170_340.jpg"
     },
@@ -771,8 +738,8 @@
         "unit": "kg",
         "formatted": "59,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/veprova-kyta-bez-kosti_170_340.jpg"
     },
@@ -789,8 +756,8 @@
         "unit": "kg",
         "formatted": "199,00 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kruti-prsni-rizky_170_340.jpg"
     },
@@ -805,8 +772,8 @@
         "unit": "kg",
         "formatted": "79,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-stehna_170_340.jpg"
     },
@@ -821,8 +788,8 @@
         "unit": "kg",
         "formatted": "84,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-stehna_170_340.jpg"
     },
@@ -839,8 +806,8 @@
         "unit": "kg",
         "formatted": "99,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-stehenni-rizky_170_340.jpg"
     },
@@ -855,8 +822,8 @@
         "unit": "kg",
         "formatted": "129,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-stehenni-rizky_170_340.jpg"
     },
@@ -871,8 +838,8 @@
         "unit": "kg",
         "formatted": "189,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kruti-prsa_170_340.jpg"
     },
@@ -887,8 +854,8 @@
         "unit": "kg",
         "formatted": "69,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kachna_170_340.jpg"
     },
@@ -903,8 +870,8 @@
         "unit": "kg",
         "formatted": "79,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kachna_170_340.jpg"
     },
@@ -919,8 +886,8 @@
         "unit": "kg",
         "formatted": "59,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-ctvrtky_170_340.jpg"
     },
@@ -937,8 +904,8 @@
         "unit": "kg",
         "formatted": "129,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-prsni-rizky-albert_170_340.jpg"
     },
@@ -955,8 +922,8 @@
         "unit": "kg",
         "formatted": "249,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/hovezi-predni-bez-kosti-klizka_170_340.jpg"
@@ -972,8 +939,8 @@
         "unit": "kg",
         "formatted": "229,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/hovezi-predni-bez-kosti-klizka_170_340.jpg"
     },
@@ -990,8 +957,8 @@
         "unit": "kg",
         "formatted": "99,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kachna-vodnanska-kachna_170_340.jpg"
     },
@@ -1008,8 +975,8 @@
         "unit": "kg",
         "formatted": "299,00 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/hovezi-zadni-bez-kosti_170_340.jpg"
     },
@@ -1026,8 +993,8 @@
         "unit": "100g",
         "formatted": "18,17 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/croissant-7-days_170_340.jpg"
@@ -1045,8 +1012,8 @@
         "unit": "100g",
         "formatted": "23,17 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/croissant-7-days_170_340.jpg"
     },
@@ -1063,8 +1030,8 @@
         "unit": "100g",
         "formatted": "18,62 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/croissant-7-days_170_340.jpg"
@@ -1080,8 +1047,8 @@
         "unit": "100g",
         "formatted": "19,83 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/croissant-7-days_170_340.jpg"
     },
@@ -1098,8 +1065,8 @@
         "unit": "100g",
         "formatted": "5,83 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kaiserka-cerealni_170_340.jpg"
     },
@@ -1116,8 +1083,8 @@
         "unit": "100g",
         "formatted": "17,68 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
     },
@@ -1134,8 +1101,8 @@
         "unit": "100g",
         "formatted": "22,04 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
     },
@@ -1150,8 +1117,8 @@
         "unit": "100g",
         "formatted": "13,86 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
     },
@@ -1166,8 +1133,8 @@
         "unit": "100g",
         "formatted": "19,87 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
     },
@@ -1184,8 +1151,8 @@
         "unit": "100g",
         "formatted": "20,88 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
@@ -1203,8 +1170,8 @@
         "unit": "100g",
         "formatted": "26,89 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
@@ -1222,8 +1189,8 @@
         "unit": "100g",
         "formatted": "27,64 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/donut_170_340.jpg"
     },
@@ -1240,8 +1207,8 @@
         "unit": "100g",
         "formatted": "8,61 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bageta-francouzska_170_340.jpg"
@@ -1259,8 +1226,8 @@
         "unit": "100g",
         "formatted": "6,65 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toustovy-chleb-sandwich-soft-olz_170_340.jpg"
     },
@@ -1277,8 +1244,8 @@
         "unit": "100g",
         "formatted": "6,65 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toustovy-chleb-sandwich-soft-olz_170_340.jpg"
     },
@@ -1295,8 +1262,8 @@
         "unit": "100g",
         "formatted": "6,65 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toustovy-chleb-sandwich-soft-olz_170_340.jpg"
     },
@@ -1313,8 +1280,8 @@
         "unit": "100g",
         "formatted": "9,31 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toustovy-chleb-sandwich-soft-olz_170_340.jpg"
     },
@@ -1329,8 +1296,8 @@
         "unit": "100g",
         "formatted": "7,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bageta_170_340.jpg"
     },
@@ -1347,8 +1314,8 @@
         "unit": "100g",
         "formatted": "4,42 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chleb-zitny_170_340.jpg"
     },
@@ -1365,8 +1332,8 @@
         "unit": "100g",
         "formatted": "19,65 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/croissant_170_340.jpg"
@@ -1384,8 +1351,8 @@
         "unit": "100g",
         "formatted": "9,98 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/vanocka-oelz_170_340.jpg"
     },
@@ -1402,8 +1369,8 @@
         "unit": "100g",
         "formatted": "10,85 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dalamanek_170_340.jpg"
     },
@@ -1418,8 +1385,8 @@
         "unit": "100g",
         "formatted": "5,57 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dalamanek_170_340.jpg"
     },
@@ -1436,8 +1403,8 @@
         "unit": "100g",
         "formatted": "8,76 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chleb-fit-den-penam_170_340.jpg"
@@ -1455,8 +1422,8 @@
         "unit": "100g",
         "formatted": "9,48 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kornbageta_170_340.jpg"
     },
@@ -1473,8 +1440,8 @@
         "unit": "100g",
         "formatted": "5,13 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Lidl Plus",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kornbageta_170_340.jpg"
@@ -1492,120 +1459,10 @@
         "unit": "100g",
         "formatted": "6,00 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kornbageta_170_340.jpg"
-    },
-    {
-      "id": "billa-11271180",
-      "store": "billa",
-      "title": "Boruvky Billa Bonvia",
-      "category": "fruits_vegetables",
-      "originalPrice": 49.9,
-      "salePrice": 34.9,
-      "discountPercentage": 30,
-      "unitPrice": {
-        "price": 27.921,
-        "unit": "100g",
-        "formatted": "27,92 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": true,
-      "clubCardName": "Billa Club",
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/boruvky-billa-bonvia_170_340.jpg"
-    },
-    {
-      "id": "tesco-11231052",
-      "store": "tesco",
-      "title": "Citrony",
-      "category": "fruits_vegetables",
-      "originalPrice": 69,
-      "salePrice": 26.9,
-      "discountPercentage": 61,
-      "unitPrice": {
-        "price": 26.901,
-        "unit": "kg",
-        "formatted": "26,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/citrony_170_340.jpg"
-    },
-    {
-      "id": "billa-11271174",
-      "store": "billa",
-      "title": "Banany Billa Bonvia",
-      "category": "fruits_vegetables",
-      "originalPrice": 39.5,
-      "salePrice": 22.9,
-      "discountPercentage": 42,
-      "unitPrice": {
-        "price": 22.901,
-        "unit": "kg",
-        "formatted": "22,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": true,
-      "clubCardName": "Billa Club",
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/banany-billa-bonvia_170_340.jpg"
-    },
-    {
-      "id": "billa-11271222",
-      "store": "billa",
-      "title": "Dyne Mexicka Ceska Farma",
-      "category": "fruits_vegetables",
-      "originalPrice": 79.2,
-      "salePrice": 49.9,
-      "discountPercentage": 37,
-      "unitPrice": {
-        "price": 49.901,
-        "unit": "100g",
-        "formatted": "49,90 Kč / 1 ks"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/dyne-mexicka-ceska-farma_170_340.jpg"
-    },
-    {
-      "id": "tesco-11231004",
-      "store": "tesco",
-      "title": "Okurka Salatova Hadovka",
-      "category": "fruits_vegetables",
-      "originalPrice": 24.8,
-      "salePrice": 11.9,
-      "discountPercentage": 52,
-      "unitPrice": {
-        "price": 11.901,
-        "unit": "100g",
-        "formatted": "11,90 Kč / 1 ks"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/okurka-salatova-hadovka_170_340.jpg"
-    },
-    {
-      "id": "lidl-11251545",
-      "store": "lidl",
-      "title": "Hrusky Zelene Lucasova",
-      "category": "fruits_vegetables",
-      "originalPrice": 49.8,
-      "salePrice": 24.9,
-      "discountPercentage": 50,
-      "unitPrice": {
-        "price": 24.901,
-        "unit": "kg",
-        "formatted": "24,90 Kč / 1 kg"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/hrusky-zelene-lucasova_170_340.jpg"
     },
     {
       "id": "tesco-11231046",
@@ -1620,10 +1477,28 @@
         "unit": "kg",
         "formatted": "49,80 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/hrozny-cervene-bezsemenne-the-growers-harvest-tesco_170_340.jpg"
+    },
+    {
+      "id": "tesco-11231004",
+      "store": "tesco",
+      "title": "Okurka Salatova Hadovka",
+      "category": "fruits_vegetables",
+      "originalPrice": 24.8,
+      "salePrice": 11.9,
+      "discountPercentage": 52,
+      "unitPrice": {
+        "price": 11.901,
+        "unit": "100g",
+        "formatted": "11,90 Kč / 1 ks"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/okurka-salatova-hadovka_170_340.jpg"
     },
     {
       "id": "tesco-11231010",
@@ -1638,29 +1513,47 @@
         "unit": "kg",
         "formatted": "9,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dyne-halloween_170_340.jpg"
     },
     {
-      "id": "lidl-11251539",
-      "store": "lidl",
-      "title": "Kvetak",
+      "id": "billa-11271222",
+      "store": "billa",
+      "title": "Dyne Mexicka Ceska Farma",
       "category": "fruits_vegetables",
-      "originalPrice": 59.3,
-      "salePrice": 24.9,
-      "discountPercentage": 58,
+      "originalPrice": 79.2,
+      "salePrice": 49.9,
+      "discountPercentage": 37,
       "unitPrice": {
-        "price": 24.901,
+        "price": 49.901,
         "unit": "100g",
-        "formatted": "24,90 Kč / 1 ks"
+        "formatted": "49,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/dyne-mexicka-ceska-farma_170_340.jpg"
+    },
+    {
+      "id": "billa-11271180",
+      "store": "billa",
+      "title": "Boruvky Billa Bonvia",
+      "category": "fruits_vegetables",
+      "originalPrice": 49.9,
+      "salePrice": 34.9,
+      "discountPercentage": 30,
+      "unitPrice": {
+        "price": 27.921,
+        "unit": "100g",
+        "formatted": "27,92 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
-      "clubCardName": "Lidl Plus",
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kvetak_170_340.jpg"
+      "clubCardName": "Billa Club",
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/boruvky-billa-bonvia_170_340.jpg"
     },
     {
       "id": "billa-11271177",
@@ -1675,11 +1568,85 @@
         "unit": "100g",
         "formatted": "27,92 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/maliny-billa-bonvia_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251539",
+      "store": "lidl",
+      "title": "Kvetak",
+      "category": "fruits_vegetables",
+      "originalPrice": 59.3,
+      "salePrice": 24.9,
+      "discountPercentage": 58,
+      "unitPrice": {
+        "price": 24.901,
+        "unit": "100g",
+        "formatted": "24,90 Kč / 1 ks"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": true,
+      "clubCardName": "Lidl Plus",
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kvetak_170_340.jpg"
+    },
+    {
+      "id": "tesco-11231052",
+      "store": "tesco",
+      "title": "Citrony",
+      "category": "fruits_vegetables",
+      "originalPrice": 69,
+      "salePrice": 26.9,
+      "discountPercentage": 61,
+      "unitPrice": {
+        "price": 26.901,
+        "unit": "kg",
+        "formatted": "26,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/citrony_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251545",
+      "store": "lidl",
+      "title": "Hrusky Zelene Lucasova",
+      "category": "fruits_vegetables",
+      "originalPrice": 49.8,
+      "salePrice": 24.9,
+      "discountPercentage": 50,
+      "unitPrice": {
+        "price": 24.901,
+        "unit": "kg",
+        "formatted": "24,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/hrusky-zelene-lucasova_170_340.jpg"
+    },
+    {
+      "id": "billa-11271174",
+      "store": "billa",
+      "title": "Banany Billa Bonvia",
+      "category": "fruits_vegetables",
+      "originalPrice": 39.5,
+      "salePrice": 22.9,
+      "discountPercentage": 42,
+      "unitPrice": {
+        "price": 22.901,
+        "unit": "kg",
+        "formatted": "22,90 Kč / 1 kg"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": true,
+      "clubCardName": "Billa Club",
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/banany-billa-bonvia_170_340.jpg"
     },
     {
       "id": "penny-11253117",
@@ -1694,8 +1661,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/banany_170_340.jpg"
     },
@@ -1712,8 +1679,8 @@
         "unit": "kg",
         "formatted": "29,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/banany_170_340.jpg"
     },
@@ -1730,8 +1697,8 @@
         "unit": "kg",
         "formatted": "29,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pomerance_170_340.jpg"
     },
@@ -1748,8 +1715,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pomerance_170_340.jpg"
     },
@@ -1766,8 +1733,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pomerance_170_340.jpg"
     },
@@ -1784,8 +1751,8 @@
         "unit": "kg",
         "formatted": "29,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pomerance_170_340.jpg"
     },
@@ -1802,8 +1769,8 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avokado_170_340.jpg"
     },
@@ -1820,8 +1787,8 @@
         "unit": "100g",
         "formatted": "14,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avokado_170_340.jpg"
     },
@@ -1838,8 +1805,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mandarinky_170_340.jpg"
     },
@@ -1856,8 +1823,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mandarinky_170_340.jpg"
     },
@@ -1874,8 +1841,8 @@
         "unit": "kg",
         "formatted": "11,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cibule-kuchynska-zluta_170_340.jpg"
     },
@@ -1892,8 +1859,8 @@
         "unit": "kg",
         "formatted": "12,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cibule-kuchynska-zluta_170_340.jpg"
     },
@@ -1908,8 +1875,8 @@
         "unit": "kg",
         "formatted": "12,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cibule-kuchynska-zluta_170_340.jpg"
     },
@@ -1926,8 +1893,8 @@
         "unit": "kg",
         "formatted": "49,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/rajcata-kerikova_170_340.jpg"
     },
@@ -1944,8 +1911,8 @@
         "unit": "kg",
         "formatted": "8,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/brambory-konzumni-pozdni_170_340.jpg"
     },
@@ -1960,8 +1927,8 @@
         "unit": "kg",
         "formatted": "11,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/brambory-konzumni-pozdni_170_340.jpg"
     },
@@ -1978,8 +1945,8 @@
         "unit": "100g",
         "formatted": "19,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/jahody_170_340.jpg"
     },
@@ -1996,8 +1963,8 @@
         "unit": "kg",
         "formatted": "11,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mrkev_170_340.jpg"
     },
@@ -2012,8 +1979,8 @@
         "unit": "kg",
         "formatted": "11,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mrkev_170_340.jpg"
     },
@@ -2030,8 +1997,8 @@
         "unit": "100g",
         "formatted": "4,38 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/brokolice_170_340.jpg"
     },
@@ -2048,8 +2015,8 @@
         "unit": "kg",
         "formatted": "24,90 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/jablka-golden-delicious_170_340.jpg"
     },
@@ -2066,8 +2033,8 @@
         "unit": "100g",
         "formatted": "24,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mango_170_340.jpg"
     },
@@ -2082,42 +2049,10 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mango_170_340.jpg"
-    },
-    {
-      "id": "tesco-11230998",
-      "store": "tesco",
-      "title": "Limonada Fanta",
-      "category": "beverages",
-      "salePrice": 31.9,
-      "unitPrice": {
-        "price": 21.271,
-        "unit": "l",
-        "formatted": "21,27 Kč / 1 l"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-fanta_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11266212",
-      "store": "kaufland",
-      "title": "Limonada Pepsi",
-      "category": "beverages",
-      "salePrice": 89.9,
-      "unitPrice": {
-        "price": 11.241,
-        "unit": "l",
-        "formatted": "11,24 Kč / 1 l"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-pepsi_170_340.jpg"
     },
     {
       "id": "kaufland-11265648",
@@ -2130,10 +2065,42 @@
         "unit": "100g",
         "formatted": "18,99 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/mleta-kava-standard-jihlavanka_170_340.jpg"
+    },
+    {
+      "id": "kaufland-11266212",
+      "store": "kaufland",
+      "title": "Limonada Pepsi",
+      "category": "beverages",
+      "salePrice": 89.9,
+      "unitPrice": {
+        "price": 11.241,
+        "unit": "l",
+        "formatted": "11,24 Kč / 1 l"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-pepsi_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251557",
+      "store": "lidl",
+      "title": "Kofola",
+      "category": "beverages",
+      "salePrice": 94.9,
+      "unitPrice": {
+        "price": 10.541,
+        "unit": "l",
+        "formatted": "10,54 Kč / 1 l"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kofola_170_340.jpg"
     },
     {
       "id": "tesco-11219670",
@@ -2148,11 +2115,27 @@
         "unit": "l",
         "formatted": "18,32 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-coca-cola_170_340.jpg"
+    },
+    {
+      "id": "tesco-11230998",
+      "store": "tesco",
+      "title": "Limonada Fanta",
+      "category": "beverages",
+      "salePrice": 31.9,
+      "unitPrice": {
+        "price": 21.271,
+        "unit": "l",
+        "formatted": "21,27 Kč / 1 l"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-fanta_170_340.jpg"
     },
     {
       "id": "tesco-11231001",
@@ -2165,26 +2148,10 @@
         "unit": "l",
         "formatted": "21,27 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/limonada-sprite_170_340.jpg"
-    },
-    {
-      "id": "lidl-11251557",
-      "store": "lidl",
-      "title": "Kofola",
-      "category": "beverages",
-      "salePrice": 94.9,
-      "unitPrice": {
-        "price": 10.541,
-        "unit": "l",
-        "formatted": "10,54 Kč / 1 l"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/kofola_170_340.jpg"
     },
     {
       "id": "albert-11249280",
@@ -2199,8 +2166,8 @@
         "unit": "100g",
         "formatted": "63,00 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-kava-jacobs-velvet_170_340.jpg"
     },
@@ -2217,8 +2184,8 @@
         "unit": "100g",
         "formatted": "69,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-kava-jacobs-velvet_170_340.jpg"
@@ -2234,8 +2201,8 @@
         "unit": "100g",
         "formatted": "66,63 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-kava-jacobs-velvet_170_340.jpg"
     },
@@ -2252,8 +2219,8 @@
         "unit": "100g",
         "formatted": "61,78 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-kava-nescafe-classic_170_340.jpg"
@@ -2271,8 +2238,8 @@
         "unit": "100g",
         "formatted": "69,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-kava-nescafe-classic_170_340.jpg"
     },
@@ -2289,8 +2256,8 @@
         "unit": "100g",
         "formatted": "6,63 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-dolce-gusto-nescafe_170_340.jpg"
     },
@@ -2305,8 +2272,8 @@
         "unit": "100g",
         "formatted": "7,49 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-dolce-gusto-nescafe_170_340.jpg"
     },
@@ -2321,8 +2288,8 @@
         "unit": "100g",
         "formatted": "6,00 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-dolce-gusto-nescafe_170_340.jpg"
     },
@@ -2339,8 +2306,8 @@
         "unit": "100g",
         "formatted": "6,63 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-dolce-gusto-nescafe_170_340.jpg"
     },
@@ -2357,8 +2324,8 @@
         "unit": "l",
         "formatted": "9,93 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prirodni-voda-magnesia_170_340.jpg"
     },
@@ -2375,8 +2342,8 @@
         "unit": "l",
         "formatted": "9,93 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prirodni-voda-magnesia_170_340.jpg"
     },
@@ -2391,8 +2358,8 @@
         "unit": "l",
         "formatted": "9,93 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prirodni-voda-magnesia_170_340.jpg"
     },
@@ -2407,8 +2374,8 @@
         "unit": "l",
         "formatted": "9,93 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prirodni-voda-magnesia_170_340.jpg"
     },
@@ -2425,8 +2392,8 @@
         "unit": "l",
         "formatted": "85,57 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-yo_170_340.jpg"
     },
@@ -2443,8 +2410,8 @@
         "unit": "l",
         "formatted": "85,57 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-yo_170_340.jpg"
@@ -2460,8 +2427,8 @@
         "unit": "l",
         "formatted": "85,57 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-yo_170_340.jpg"
     },
@@ -2478,8 +2445,8 @@
         "unit": "l",
         "formatted": "29,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dzus-relax_170_340.jpg"
     },
@@ -2494,8 +2461,8 @@
         "unit": "l",
         "formatted": "24,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dzus-relax_170_340.jpg"
     },
@@ -2510,8 +2477,8 @@
         "unit": "l",
         "formatted": "29,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dzus-relax_170_340.jpg"
     },
@@ -2526,8 +2493,8 @@
         "unit": "l",
         "formatted": "39,90 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/dzus-relax_170_340.jpg"
     },
@@ -2544,8 +2511,8 @@
         "unit": "l",
         "formatted": "42,71 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-jupi_170_340.jpg"
     },
@@ -2560,8 +2527,8 @@
         "unit": "l",
         "formatted": "47,00 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-jupi_170_340.jpg"
     },
@@ -2576,8 +2543,8 @@
         "unit": "l",
         "formatted": "49,86 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-jupi_170_340.jpg"
     },
@@ -2592,8 +2559,8 @@
         "unit": "l",
         "formatted": "49,97 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/sirup-jupi_170_340.jpg"
     },
@@ -2608,8 +2575,8 @@
         "unit": "l",
         "formatted": "7,93 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ochucena-voda-dobra-voda_170_340.jpg"
     },
@@ -2624,8 +2591,8 @@
         "unit": "l",
         "formatted": "9,27 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ochucena-voda-dobra-voda_170_340.jpg"
     },
@@ -2642,8 +2609,8 @@
         "unit": "l",
         "formatted": "65,80 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-monster-energy_170_340.jpg"
@@ -2659,8 +2626,8 @@
         "unit": "l",
         "formatted": "65,80 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-monster-energy_170_340.jpg"
     },
@@ -2677,8 +2644,8 @@
         "unit": "l",
         "formatted": "131,60 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-red-bull_170_340.jpg"
     },
@@ -2695,8 +2662,8 @@
         "unit": "l",
         "formatted": "131,60 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-red-bull_170_340.jpg"
@@ -2714,8 +2681,8 @@
         "unit": "l",
         "formatted": "131,60 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-red-bull_170_340.jpg"
     },
@@ -2730,8 +2697,8 @@
         "unit": "l",
         "formatted": "131,60 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/energeticky-napoj-red-bull_170_340.jpg"
     },
@@ -2746,48 +2713,11 @@
         "unit": "100g",
         "formatted": "30,24 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Kaufland Card",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-pringles-tubus_170_340.jpg"
-    },
-    {
-      "id": "lidl-11251554",
-      "store": "lidl",
-      "title": "Prazene Pistacie Alesto",
-      "category": "sweets_snacks",
-      "originalPrice": 109.2,
-      "salePrice": 69.9,
-      "discountPercentage": 36,
-      "unitPrice": {
-        "price": 27.961,
-        "unit": "100g",
-        "formatted": "27,96 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/prazene-pistacie-alesto_170_340.jpg"
-    },
-    {
-      "id": "billa-11271216",
-      "store": "billa",
-      "title": "Bonboniera Toffifee Storck",
-      "category": "sweets_snacks",
-      "originalPrice": 54.4,
-      "salePrice": 29.9,
-      "discountPercentage": 45,
-      "unitPrice": {
-        "price": 23.921,
-        "unit": "100g",
-        "formatted": "23,92 Kč / 100 g"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": true,
-      "clubCardName": "Billa Club",
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/bonboniera-toffifee-storck_170_340.jpg"
     },
     {
       "id": "tesco-11221299",
@@ -2802,11 +2732,29 @@
         "unit": "100g",
         "formatted": "24,61 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-spooky-oreo_170_340.jpg"
+    },
+    {
+      "id": "lidl-11251554",
+      "store": "lidl",
+      "title": "Prazene Pistacie Alesto",
+      "category": "sweets_snacks",
+      "originalPrice": 109.2,
+      "salePrice": 69.9,
+      "discountPercentage": 36,
+      "unitPrice": {
+        "price": 27.961,
+        "unit": "100g",
+        "formatted": "27,96 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/prazene-pistacie-alesto_170_340.jpg"
     },
     {
       "id": "billa-11271225",
@@ -2821,10 +2769,29 @@
         "unit": "100g",
         "formatted": "21,12 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/bonbony-zele-haribo_170_340.jpg"
+    },
+    {
+      "id": "billa-11271216",
+      "store": "billa",
+      "title": "Bonboniera Toffifee Storck",
+      "category": "sweets_snacks",
+      "originalPrice": 54.4,
+      "salePrice": 29.9,
+      "discountPercentage": 45,
+      "unitPrice": {
+        "price": 23.921,
+        "unit": "100g",
+        "formatted": "23,92 Kč / 100 g"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": true,
+      "clubCardName": "Billa Club",
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/bonboniera-toffifee-storck_170_340.jpg"
     },
     {
       "id": "albert-11238570",
@@ -2839,8 +2806,8 @@
         "unit": "100g",
         "formatted": "24,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-milka_170_340.jpg"
     },
@@ -2855,8 +2822,8 @@
         "unit": "100g",
         "formatted": "29,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-milka_170_340.jpg"
     },
@@ -2873,8 +2840,8 @@
         "unit": "100g",
         "formatted": "25,69 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nutella_170_340.jpg"
@@ -2892,8 +2859,8 @@
         "unit": "100g",
         "formatted": "20,99 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nutella_170_340.jpg"
     },
@@ -2908,8 +2875,8 @@
         "unit": "100g",
         "formatted": "24,98 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nutella_170_340.jpg"
     },
@@ -2926,8 +2893,8 @@
         "unit": "100g",
         "formatted": "27,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
     },
@@ -2944,8 +2911,8 @@
         "unit": "100g",
         "formatted": "29,35 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
@@ -2963,8 +2930,8 @@
         "unit": "100g",
         "formatted": "27,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
     },
@@ -2981,8 +2948,8 @@
         "unit": "100g",
         "formatted": "29,35 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
@@ -3000,8 +2967,8 @@
         "unit": "100g",
         "formatted": "29,35 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
     },
@@ -3016,8 +2983,8 @@
         "unit": "100g",
         "formatted": "32,29 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Kaufland Card",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
@@ -3033,8 +3000,8 @@
         "unit": "100g",
         "formatted": "35,24 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-studentska-pecet-orion_170_340.jpg"
     },
@@ -3051,8 +3018,8 @@
         "unit": "100g",
         "formatted": "26,58 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-bohemia-chips_170_340.jpg"
@@ -3070,8 +3037,8 @@
         "unit": "100g",
         "formatted": "26,85 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-bohemia-chips_170_340.jpg"
     },
@@ -3086,8 +3053,8 @@
         "unit": "100g",
         "formatted": "19,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-bohemia-chips_170_340.jpg"
     },
@@ -3102,8 +3069,8 @@
         "unit": "100g",
         "formatted": "29,15 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-bohemia-chips_170_340.jpg"
     },
@@ -3120,8 +3087,8 @@
         "unit": "100g",
         "formatted": "30,69 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-bohemia-chips_170_340.jpg"
@@ -3139,8 +3106,8 @@
         "unit": "100g",
         "formatted": "14,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-biscoff-lotus_170_340.jpg"
     },
@@ -3157,8 +3124,8 @@
         "unit": "100g",
         "formatted": "15,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-biscoff-lotus_170_340.jpg"
@@ -3174,8 +3141,8 @@
         "unit": "100g",
         "formatted": "25,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/oplatky-mila-sedita_170_340.jpg"
     },
@@ -3192,8 +3159,8 @@
         "unit": "100g",
         "formatted": "29,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/oplatky-mila-sedita_170_340.jpg"
     },
@@ -3210,8 +3177,8 @@
         "unit": "100g",
         "formatted": "124,50 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokoladove-vajicko-s-prekvapenim-kinder-surprise_170_340.jpg"
@@ -3229,8 +3196,8 @@
         "unit": "100g",
         "formatted": "124,50 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokoladove-vajicko-s-prekvapenim-kinder-surprise_170_340.jpg"
     },
@@ -3247,8 +3214,8 @@
         "unit": "100g",
         "formatted": "149,50 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokoladove-vajicko-s-prekvapenim-kinder-surprise_170_340.jpg"
@@ -3266,8 +3233,8 @@
         "unit": "100g",
         "formatted": "17,64 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/medovnik-original_170_340.jpg"
     },
@@ -3284,8 +3251,8 @@
         "unit": "100g",
         "formatted": "17,64 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/medovnik-original_170_340.jpg"
     },
@@ -3300,8 +3267,8 @@
         "unit": "100g",
         "formatted": "17,77 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/medovnik-original_170_340.jpg"
     },
@@ -3316,8 +3283,8 @@
         "unit": "100g",
         "formatted": "18,81 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/medovnik-original_170_340.jpg"
     },
@@ -3334,8 +3301,8 @@
         "unit": "100g",
         "formatted": "21,93 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/medovnik-original_170_340.jpg"
     },
@@ -3350,8 +3317,8 @@
         "unit": "100g",
         "formatted": "69,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Kaufland Card",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-excellence-lindt_170_340.jpg"
@@ -3367,8 +3334,8 @@
         "unit": "100g",
         "formatted": "74,90 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokolada-excellence-lindt_170_340.jpg"
     },
@@ -3385,8 +3352,8 @@
         "unit": "100g",
         "formatted": "23,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-lays_170_340.jpg"
@@ -3402,8 +3369,8 @@
         "unit": "100g",
         "formatted": "19,96 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-lays_170_340.jpg"
     },
@@ -3418,8 +3385,8 @@
         "unit": "100g",
         "formatted": "35,36 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/chipsy-lays_170_340.jpg"
     },
@@ -3436,8 +3403,8 @@
         "unit": "100g",
         "formatted": "16,64 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-bebe-dobre-rano-opavia_170_340.jpg"
     },
@@ -3454,8 +3421,8 @@
         "unit": "100g",
         "formatted": "19,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-bebe-dobre-rano-opavia_170_340.jpg"
     },
@@ -3470,8 +3437,8 @@
         "unit": "100g",
         "formatted": "27,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/susenky-bebe-dobre-rano-opavia_170_340.jpg"
     },
@@ -3488,8 +3455,8 @@
         "unit": "100g",
         "formatted": "53,27 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokoladky-kinder_170_340.jpg"
@@ -3507,8 +3474,8 @@
         "unit": "100g",
         "formatted": "39,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokoladky-kinder_170_340.jpg"
     },
@@ -3525,8 +3492,8 @@
         "unit": "100g",
         "formatted": "25,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/oplatky-horalky-sedita_170_340.jpg"
     },
@@ -3543,8 +3510,8 @@
         "unit": "100g",
         "formatted": "27,80 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/oplatky-horalky-sedita_170_340.jpg"
@@ -3562,8 +3529,8 @@
         "unit": "100g",
         "formatted": "17,62 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cokokrem-arasidovy-nugeta-orion_170_340.jpg"
     },
@@ -3580,8 +3547,8 @@
         "unit": "100g",
         "formatted": "13,67 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
@@ -3599,8 +3566,8 @@
         "unit": "100g",
         "formatted": "14,06 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
@@ -3616,8 +3583,8 @@
         "unit": "100g",
         "formatted": "14,06 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
     },
@@ -3634,8 +3601,8 @@
         "unit": "100g",
         "formatted": "15,04 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
@@ -3653,8 +3620,8 @@
         "unit": "100g",
         "formatted": "15,46 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
@@ -3670,8 +3637,8 @@
         "unit": "100g",
         "formatted": "22,41 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-ristorante-dr-oetker_170_340.jpg"
     },
@@ -3688,8 +3655,8 @@
         "unit": "l",
         "formatted": "23,89 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-haagen-dazs_170_340.jpg"
@@ -3705,8 +3672,8 @@
         "unit": "l",
         "formatted": "17,37 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-haagen-dazs_170_340.jpg"
     },
@@ -3721,8 +3688,8 @@
         "unit": "l",
         "formatted": "35,69 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-haagen-dazs_170_340.jpg"
     },
@@ -3739,8 +3706,8 @@
         "unit": "l",
         "formatted": "8,99 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-ve-vanicce-carte-dor-algida_170_340.jpg"
@@ -3758,8 +3725,8 @@
         "unit": "l",
         "formatted": "8,99 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-ve-vanicce-carte-dor-algida_170_340.jpg"
     },
@@ -3776,8 +3743,8 @@
         "unit": "l",
         "formatted": "9,68 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-ve-vanicce-carte-dor-algida_170_340.jpg"
@@ -3795,8 +3762,8 @@
         "unit": "l",
         "formatted": "27,18 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-magnum-algida_170_340.jpg"
     },
@@ -3811,8 +3778,8 @@
         "unit": "l",
         "formatted": "38,71 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-magnum-algida_170_340.jpg"
     },
@@ -3829,8 +3796,8 @@
         "unit": "l",
         "formatted": "27,09 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-misa_170_340.jpg"
     },
@@ -3845,8 +3812,8 @@
         "unit": "l",
         "formatted": "23,45 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-misa_170_340.jpg"
     },
@@ -3861,8 +3828,8 @@
         "unit": "l",
         "formatted": "25,27 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-misa_170_340.jpg"
     },
@@ -3877,8 +3844,8 @@
         "unit": "l",
         "formatted": "27,09 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/nanuk-misa_170_340.jpg"
     },
@@ -3895,8 +3862,8 @@
         "unit": "l",
         "formatted": "30,09 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-ben-jerrys_170_340.jpg"
     },
@@ -3911,8 +3878,8 @@
         "unit": "l",
         "formatted": "34,39 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-ben-jerrys_170_340.jpg"
     },
@@ -3929,8 +3896,8 @@
         "unit": "100g",
         "formatted": "26,63 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/rybi-file-mrazene-nowaco_170_340.jpg"
     },
@@ -3945,8 +3912,8 @@
         "unit": "100g",
         "formatted": "16,84 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-casa-di-mama-dr-oetker_170_340.jpg"
     },
@@ -3963,8 +3930,8 @@
         "unit": "l",
         "formatted": "22,70 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/zmrzlina-v-kelimku-magnum-algida_170_340.jpg"
     },
@@ -3981,8 +3948,8 @@
         "unit": "100g",
         "formatted": "18,43 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-polevka-yumyum_170_340.jpg"
     },
@@ -3997,8 +3964,8 @@
         "unit": "100g",
         "formatted": "23,17 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/instantni-polevka-yumyum_170_340.jpg"
     },
@@ -4015,8 +3982,8 @@
         "unit": "100g",
         "formatted": "14,09 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-guseppe-dr-oetker_170_340.jpg"
     },
@@ -4033,8 +4000,8 @@
         "unit": "100g",
         "formatted": "17,88 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Billa Club",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pizza-mrazena-guseppe-dr-oetker_170_340.jpg"
@@ -4052,8 +4019,8 @@
         "unit": "100g",
         "formatted": "24,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-obalovany-mrazeny-nowaco_170_340.jpg"
@@ -4071,8 +4038,8 @@
         "unit": "100g",
         "formatted": "19,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-obalovany-mrazeny-nowaco_170_340.jpg"
     },
@@ -4087,8 +4054,8 @@
         "unit": "100g",
         "formatted": "19,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-obalovany-mrazeny-nowaco_170_340.jpg"
     },
@@ -4103,8 +4070,8 @@
         "unit": "100g",
         "formatted": "22,45 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-obalovany-mrazeny-nowaco_170_340.jpg"
     },
@@ -4119,8 +4086,8 @@
         "unit": "100g",
         "formatted": "24,95 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/syr-obalovany-mrazeny-nowaco_170_340.jpg"
     },
@@ -4137,8 +4104,8 @@
         "unit": "100g",
         "formatted": "9,97 Kč / 100 g"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/testoviny-plnene-mrazene-pelmeni-povar_170_340.jpg"
     },
@@ -4155,26 +4122,10 @@
         "unit": "kg",
         "formatted": "179,80 Kč / 1 kg"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kureci-stripsy-mrazene-nowaco_170_340.jpg"
-    },
-    {
-      "id": "kaufland-11265651",
-      "store": "kaufland",
-      "title": "Toaletni Papir 3vrstvy Deluxe Zewa",
-      "category": "drugstore_home",
-      "salePrice": 59.9,
-      "unitPrice": {
-        "price": 7.491,
-        "unit": "100g",
-        "formatted": "7,49 Kč / 1 ks"
-      },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
-      "clubCardRequired": false,
-      "imageUrl": "https://img.kupi.cz/kupi/thumbs/toaletni-papir-3vrstvy-deluxe-zewa_170_340.jpg"
     },
     {
       "id": "kaufland-11269746",
@@ -4189,10 +4140,26 @@
         "unit": "100g",
         "formatted": "4,16 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-savo_170_340.jpg"
+    },
+    {
+      "id": "kaufland-11265651",
+      "store": "kaufland",
+      "title": "Toaletni Papir 3vrstvy Deluxe Zewa",
+      "category": "drugstore_home",
+      "salePrice": 59.9,
+      "unitPrice": {
+        "price": 7.491,
+        "unit": "100g",
+        "formatted": "7,49 Kč / 1 ks"
+      },
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
+      "clubCardRequired": false,
+      "imageUrl": "https://img.kupi.cz/kupi/thumbs/toaletni-papir-3vrstvy-deluxe-zewa_170_340.jpg"
     },
     {
       "id": "albert-11256981",
@@ -4207,8 +4174,8 @@
         "unit": "l",
         "formatted": "70,30 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prostredek-na-nadobi-jar_170_340.jpg"
     },
@@ -4225,8 +4192,8 @@
         "unit": "l",
         "formatted": "72,12 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prostredek-na-nadobi-jar_170_340.jpg"
@@ -4242,8 +4209,8 @@
         "unit": "l",
         "formatted": "77,67 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prostredek-na-nadobi-jar_170_340.jpg"
     },
@@ -4258,8 +4225,8 @@
         "unit": "l",
         "formatted": "9,32 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prostredek-na-nadobi-jar_170_340.jpg"
     },
@@ -4276,8 +4243,8 @@
         "unit": "l",
         "formatted": "121,06 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/prostredek-na-nadobi-jar_170_340.jpg"
     },
@@ -4294,8 +4261,8 @@
         "unit": "100g",
         "formatted": "4,75 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-prasek-ariel_170_340.jpg"
     },
@@ -4312,8 +4279,8 @@
         "unit": "100g",
         "formatted": "4,76 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-prasek-ariel_170_340.jpg"
@@ -4329,8 +4296,8 @@
         "unit": "100g",
         "formatted": "6,75 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-prasek-ariel_170_340.jpg"
     },
@@ -4342,8 +4309,8 @@
       "originalPrice": 119.9,
       "salePrice": 89.9,
       "discountPercentage": 25,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-silan_170_340.jpg"
     },
@@ -4355,8 +4322,8 @@
       "originalPrice": 199.9,
       "salePrice": 139.9,
       "discountPercentage": 30,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-silan_170_340.jpg"
@@ -4374,8 +4341,8 @@
         "unit": "l",
         "formatted": "64,13 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-silan_170_340.jpg"
     },
@@ -4387,8 +4354,8 @@
       "originalPrice": 197.2,
       "salePrice": 149.9,
       "discountPercentage": 24,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-silan_170_340.jpg"
     },
@@ -4405,8 +4372,8 @@
         "unit": "l",
         "formatted": "12,99 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4423,8 +4390,8 @@
         "unit": "l",
         "formatted": "13,99 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4441,8 +4408,8 @@
         "unit": "l",
         "formatted": "18,90 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4457,8 +4424,8 @@
         "unit": "l",
         "formatted": "19,98 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4475,8 +4442,8 @@
         "unit": "l",
         "formatted": "20,98 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4493,8 +4460,8 @@
         "unit": "l",
         "formatted": "25,98 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4511,8 +4478,8 @@
         "unit": "l",
         "formatted": "29,98 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/ustni-voda-listerine_170_340.jpg"
     },
@@ -4529,8 +4496,8 @@
         "unit": "100g",
         "formatted": "4,30 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
@@ -4548,8 +4515,8 @@
         "unit": "100g",
         "formatted": "4,53 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
     },
@@ -4564,8 +4531,8 @@
         "unit": "100g",
         "formatted": "4,32 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
     },
@@ -4582,8 +4549,8 @@
         "unit": "100g",
         "formatted": "4,54 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
@@ -4601,8 +4568,8 @@
         "unit": "100g",
         "formatted": "4,99 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
     },
@@ -4619,8 +4586,8 @@
         "unit": "100g",
         "formatted": "5,40 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
     },
@@ -4637,8 +4604,8 @@
         "unit": "100g",
         "formatted": "5,66 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-persil_170_340.jpg"
     },
@@ -4655,8 +4622,8 @@
         "unit": "100g",
         "formatted": "4,15 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-perwoll_170_340.jpg"
     },
@@ -4673,8 +4640,8 @@
         "unit": "100g",
         "formatted": "4,40 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-perwoll_170_340.jpg"
@@ -4690,8 +4657,8 @@
         "unit": "100g",
         "formatted": "3,75 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-perwoll_170_340.jpg"
     },
@@ -4708,8 +4675,8 @@
         "unit": "100g",
         "formatted": "5,50 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-perwoll_170_340.jpg"
@@ -4727,8 +4694,8 @@
         "unit": "100g",
         "formatted": "104,90 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kartacek-na-zuby-curaprox_170_340.jpg"
     },
@@ -4745,8 +4712,8 @@
         "unit": "100g",
         "formatted": "5,53 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-do-mycky-platinum-jar_170_340.jpg"
     },
@@ -4761,8 +4728,8 @@
         "unit": "100g",
         "formatted": "5,00 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-do-mycky-platinum-jar_170_340.jpg"
     },
@@ -4777,8 +4744,8 @@
         "unit": "100g",
         "formatted": "5,30 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-do-mycky-platinum-jar_170_340.jpg"
     },
@@ -4795,8 +4762,8 @@
         "unit": "100g",
         "formatted": "5,74 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/kapsle-do-mycky-platinum-jar_170_340.jpg"
     },
@@ -4808,8 +4775,8 @@
       "originalPrice": 219,
       "salePrice": 159.9,
       "discountPercentage": 27,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-lenor_170_340.jpg"
@@ -4820,8 +4787,8 @@
       "title": "Avivaz Lenor",
       "category": "drugstore_home",
       "salePrice": 99.9,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-lenor_170_340.jpg"
     },
@@ -4836,8 +4803,8 @@
         "unit": "l",
         "formatted": "80,63 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-lenor_170_340.jpg"
     },
@@ -4847,8 +4814,8 @@
       "title": "Avivaz Lenor",
       "category": "drugstore_home",
       "salePrice": 149,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-lenor_170_340.jpg"
     },
@@ -4860,8 +4827,8 @@
       "originalPrice": 138.8,
       "salePrice": 99.9,
       "discountPercentage": 28,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-lenor_170_340.jpg"
@@ -4877,8 +4844,8 @@
         "unit": "100g",
         "formatted": "4,75 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-prasek-persil_170_340.jpg"
     },
@@ -4895,8 +4862,8 @@
         "unit": "100g",
         "formatted": "5,40 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-prasek-persil_170_340.jpg"
     },
@@ -4913,8 +4880,8 @@
         "unit": "100g",
         "formatted": "6,24 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toaletni-papir-3vrstvy-tento_170_340.jpg"
     },
@@ -4931,8 +4898,8 @@
         "unit": "100g",
         "formatted": "6,24 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toaletni-papir-3vrstvy-tento_170_340.jpg"
     },
@@ -4949,8 +4916,8 @@
         "unit": "100g",
         "formatted": "6,24 Kč / 1 ks"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/toaletni-papir-3vrstvy-tento_170_340.jpg"
     },
@@ -4967,8 +4934,8 @@
         "unit": "100g",
         "formatted": "4,98 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-ariel_170_340.jpg"
     },
@@ -4985,8 +4952,8 @@
         "unit": "100g",
         "formatted": "5,00 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-ariel_170_340.jpg"
@@ -5002,8 +4969,8 @@
         "unit": "100g",
         "formatted": "5,48 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-ariel_170_340.jpg"
     },
@@ -5018,8 +4985,8 @@
         "unit": "100g",
         "formatted": "6,75 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-ariel_170_340.jpg"
     },
@@ -5036,8 +5003,8 @@
         "unit": "l",
         "formatted": "4,65 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cistic-wc-gelovy-domestos_170_340.jpg"
     },
@@ -5054,8 +5021,8 @@
         "unit": "l",
         "formatted": "4,65 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cistic-wc-gelovy-domestos_170_340.jpg"
     },
@@ -5070,8 +5037,8 @@
         "unit": "l",
         "formatted": "7,32 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/cistic-wc-gelovy-domestos_170_340.jpg"
     },
@@ -5088,8 +5055,8 @@
         "unit": "l",
         "formatted": "93,20 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": true,
       "clubCardName": "Clubcard",
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pasty-na-zuby-elmex_170_340.jpg"
@@ -5107,8 +5074,8 @@
         "unit": "l",
         "formatted": "99,87 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pasty-na-zuby-elmex_170_340.jpg"
     },
@@ -5123,8 +5090,8 @@
         "unit": "l",
         "formatted": "159,87 Kč / 100 ml"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/pasty-na-zuby-elmex_170_340.jpg"
     },
@@ -5139,8 +5106,8 @@
         "unit": "100g",
         "formatted": "4,00 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-woolite_170_340.jpg"
     },
@@ -5155,8 +5122,8 @@
         "unit": "100g",
         "formatted": "4,22 Kč / 1 dávka"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/praci-gel-woolite_170_340.jpg"
     },
@@ -5168,8 +5135,8 @@
       "originalPrice": 119.9,
       "salePrice": 89.9,
       "discountPercentage": 25,
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-coccolino_170_340.jpg"
     },
@@ -5184,8 +5151,8 @@
         "unit": "l",
         "formatted": "52,88 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-coccolino_170_340.jpg"
     },
@@ -5200,8 +5167,8 @@
         "unit": "l",
         "formatted": "58,76 Kč / 1 l"
       },
-      "validFrom": "2026-10-22",
-      "validTo": "2026-10-28",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "clubCardRequired": false,
       "imageUrl": "https://img.kupi.cz/kupi/thumbs/avivaz-coccolino_170_340.jpg"
     },
